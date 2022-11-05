@@ -4,7 +4,7 @@ import UserItem from './UserItem'
 
 function UserResults() {
   const [users, setUsers] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     fetchUsers()
